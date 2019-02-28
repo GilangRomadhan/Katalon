@@ -13,3 +13,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Start Netzme'
+Mobile.startApplication('C:\\Git\\Base\\src\\Netzme.apk', true)
+
+'Tap tombol NEXT'
+Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView3 - JOIN NOW'), 0)
+
+Mobile.tap(findTestObject('android.widget.EditText0 - Phone number'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - Phone number'), '08995097655', 0)
+
+Mobile.tap(findTestObject('android.widget.CheckBox0'), 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - REGISTER'), 0)
+
+Mobile.tap(findTestObject('android.widget.EditText0'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0'), '0000', 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - VERIFY'), 0)
+
+Mobile.tap(findTestObject('android.widget.Button1 - Allow'), 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - SAVE'), 0)
+
+Mobile.tap(findTestObject('android.widget.CheckBox0 - Dont show me again'), 0)
+
+Mobile.tap(findTestObject('android.widget.Button0 - CLOSE'), 0)
+
