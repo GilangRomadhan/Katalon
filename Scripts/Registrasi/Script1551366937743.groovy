@@ -17,37 +17,35 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.startApplication('C:\\Git\\Base\\src\\Netzme.apk', true)
 
 'Tap tombol NEXT'
-Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - NEXT'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - NEXT'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - NEXT'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - NEXT'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView2 - NEXT'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - NEXT'), 0)
 
-Mobile.tap(findTestObject('android.widget.TextView3 - JOIN NOW'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - JOIN NOW'), 0)
 
-Mobile.tap(findTestObject('android.widget.EditText0 - Phone number'), 0)
+Mobile.setText(findTestObject('Registrasi/Reg.button - Phone number'), '08995097655', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 - Phone number'), '08995097655', 0)
+Mobile.tap(findTestObject('Registrasi/Reg.Checkbock - Term  condition'), 0)
 
-Mobile.tap(findTestObject('android.widget.CheckBox0'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - REGISTER'), 0)
 
-Mobile.tap(findTestObject('android.widget.Button0 - REGISTER'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - Verification number'), 0)
 
-Mobile.tap(findTestObject('android.widget.EditText0'), 0)
+Mobile.setText(findTestObject('Registrasi/android.widget.EditText0'), '0000', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0'), '0000', 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - VERIFY'), 0)
 
-Mobile.tap(findTestObject('android.widget.Button0 - VERIFY'), 0)
+Mobile.tap(findTestObject('General/Button permission - Allow'), 0)
 
-Mobile.tap(findTestObject('android.widget.Button1 - Allow'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - SAVE'), 0)
 
-Mobile.tap(findTestObject('android.widget.Button0 - SAVE'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.checkbox - Dont show me again'), 0)
 
-Mobile.tap(findTestObject('android.widget.CheckBox0 - Dont show me again'), 0)
-
-Mobile.tap(findTestObject('android.widget.Button0 - CLOSE'), 0)
+Mobile.tap(findTestObject('Registrasi/Reg.button - CLOSE'), 0)
 

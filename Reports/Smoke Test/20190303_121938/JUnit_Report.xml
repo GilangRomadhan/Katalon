@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="145" tests="1" failures="1" errors="0">
+   <testsuite name="Smoke Test" tests="1" failures="1" errors="0" time="145" timestamp="2019-03-03 12:19:41" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190303_121938"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190303_121938\\appium.log, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190303_121938\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="RMX1805"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="b9decb5a"/>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi" classname="Test Cases/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-03 12:19:41 - [TEST_CASE][PASSED] - Test Cases/Registrasi: Test Cases/Registrasi
+
+2019-03-03 12:19:42 - [TEST_STEP][PASSED] - startApplication("C:\Git\Base\src\Netzme.apk", true): Started app at: 'C:\Git\Base\src\Netzme.apk'
+
+2019-03-03 12:19:48 - [MESSAGE][INFO] - Appium server started on port 62,947
+
+2019-03-03 12:20:30 - [MESSAGE][PASSED] - Started app at: 'C:\Git\Base\src\Netzme.apk'
+
+2019-03-03 12:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:35 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:36 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:38 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:39 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-03 12:20:40 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - JOIN NOW"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-03 12:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-03 12:20:42 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Reg.button - Phone number"), "08995097655", 0): Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-03 12:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:44 - [MESSAGE][PASSED] - Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-03 12:20:44 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.Checkbock - Term  condition"), 0): Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-03 12:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-03 12:20:45 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - REGISTER"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-03 12:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-03 12:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - Verification number"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - Verification number'
+
+2019-03-03 12:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - Verification number'
+
+2019-03-03 12:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/android.widget.EditText0"), "0000", 0): Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-03 12:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:50 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-03 12:20:50 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - VERIFY"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-03 12:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:20:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-03 12:20:52 - [TEST_STEP][PASSED] - tap(findTestObject("General/Button permission - Allow"), 0): Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-03 12:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:21:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-03 12:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - SAVE"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-03 12:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:21:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-03 12:21:03 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.checkbox - Dont show me again"), 0): Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-03 12:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-03 12:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - CLOSE"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE'
+
+2019-03-03 12:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-03 12:21:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim pesan text" classname="Test Cases/Kirim pesan text" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Kirim pesan text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-03 12:21:53 - [TEST_CASE][FAILED] - Test Cases/Kirim pesan text: Test Cases/Kirim pesan text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)
+
+
+2019-03-03 12:22:04 - [TEST_STEP][FAILED] - click(findTestObject("Chatting/Button Contact")): click(findTestObject("Chatting/Button Contact")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)
+
+
+2019-03-03 12:22:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-03-03 12:22:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-03-03 12:22:04 - [MESSAGE][FAILED] - click(findTestObject("Chatting/Button Contact")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-03 12:21:53 - [TEST_CASE][FAILED] - Test Cases/Kirim pesan text: Test Cases/Kirim pesan text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-03 12:19:41 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Kirim pesan text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-03 12:19:41 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Kirim pesan text FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Chatting/Button Contact' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-GILANG', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click.call(Unknown Source)
+	at Kirim pesan text.run(Kirim pesan text:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551590378374.run(TempTestSuite1551590378374.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

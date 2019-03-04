@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-03 12:02:15,2019-03-03 12:04:01,1m - 46.954s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-03 12:02:15,2019-03-03 12:03:58,1m - 42.975s,PASSED
+"startApplication(""C:\Git\Base\src\Netzme.apk"", true)",,Start Netzme,2019-03-03 12:02:16,2019-03-03 12:03:06,49.781s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,Tap tombol NEXT,2019-03-03 12:03:06,2019-03-03 12:03:11,4.675s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 12:03:11,2019-03-03 12:03:12,1.332s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 12:03:12,2019-03-03 12:03:13,1.267s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 12:03:13,2019-03-03 12:03:15,1.255s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 12:03:15,2019-03-03 12:03:16,1.216s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 0)",,,2019-03-03 12:03:16,2019-03-03 12:03:18,1.838s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 0)",,,2019-03-03 12:03:18,2019-03-03 12:03:19,1.510s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 0)",,,2019-03-03 12:03:19,2019-03-03 12:03:20,1.372s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 0)",,,2019-03-03 12:03:20,2019-03-03 12:03:23,2.867s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - Verification number""), 0)",,,2019-03-03 12:03:23,2019-03-03 12:03:24,1.006s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 0)",,,2019-03-03 12:03:24,2019-03-03 12:03:25,1.111s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 0)",,,2019-03-03 12:03:25,2019-03-03 12:03:28,2.333s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 0)",,,2019-03-03 12:03:28,2019-03-03 12:03:36,8.395s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 0)",,,2019-03-03 12:03:36,2019-03-03 12:03:38,1.640s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 0)",,,2019-03-03 12:03:38,2019-03-03 12:03:57,18.989s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 0)",,,2019-03-03 12:03:57,2019-03-03 12:03:58,1.379s,PASSED
+,,,,,,
+Test Cases/Kirim pesan text,,,2019-03-03 12:03:58,2019-03-03 12:03:59,0.796s,FAILED
+"click(findTestObject(""Chatting/Button Contact""))",,,2019-03-03 12:03:59,2019-03-03 12:03:59,0.507s,FAILED

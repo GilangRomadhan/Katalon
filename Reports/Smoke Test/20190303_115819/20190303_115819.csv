@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-03 11:58:22,2019-03-03 12:00:55,2m - 32.245s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-03 11:58:23,2019-03-03 12:00:18,1m - 55.052s,FAILED
+"startApplication(""C:\Git\Base\src\Netzme.apk"", true)",,Start Netzme,2019-03-03 11:58:23,2019-03-03 11:59:14,50.643s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,Tap tombol NEXT,2019-03-03 11:59:14,2019-03-03 11:59:19,4.675s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 11:59:19,2019-03-03 11:59:20,1.321s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 11:59:20,2019-03-03 11:59:21,1.266s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 11:59:21,2019-03-03 11:59:22,1.243s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 0)",,,2019-03-03 11:59:22,2019-03-03 11:59:24,1.234s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 0)",,,2019-03-03 11:59:24,2019-03-03 11:59:26,1.866s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 0)",,,2019-03-03 11:59:26,2019-03-03 11:59:28,2.022s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 0)",,,2019-03-03 11:59:28,2019-03-03 11:59:29,1.367s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 0)",,,2019-03-03 11:59:29,2019-03-03 11:59:31,2.173s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - Verification number""), 0)",,,2019-03-03 11:59:31,2019-03-03 12:00:18,46.665s,FAILED
+,,,,,,
+Test Cases/Kirim pesan text,,,2019-03-03 12:00:29,2019-03-03 12:00:52,22.834s,FAILED
+"click(findTestObject(""Chatting/Button Contact""))",,,2019-03-03 12:00:40,2019-03-03 12:00:52,11.341s,FAILED
