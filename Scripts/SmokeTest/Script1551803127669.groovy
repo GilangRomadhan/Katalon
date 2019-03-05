@@ -25,6 +25,7 @@ Mobile.tap(findTestObject('Smoke Test/android.widget.ImageButton0'), 0)
 
 Mobile.tap(findTestObject('Smoke Test/android.widget.ImageButton1'), 0)
 
+'Header contact\r\n'
 Mobile.tap(findTestObject('Smoke Test/android.widget.ImageButton3'), 0)
 
 Mobile.tap(findTestObject('Smoke Test/android.widget.TextView3 - 08995097601 (1)'), 0)

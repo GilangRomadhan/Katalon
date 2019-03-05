@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="152" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="2" failures="0" errors="0" time="152" timestamp="2019-03-05 23:50:31" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190305_235027"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190305_235027\\appium.log, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Testing\\Katalon\\Katalon\\Reports\\Smoke Test\\20190305_235027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="RMX1805"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="b9decb5a"/>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi" classname="Test Cases/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-05 23:50:32 - [TEST_CASE][PASSED] - Test Cases/Registrasi: Test Cases/Registrasi
+
+2019-03-05 23:50:33 - [TEST_STEP][PASSED] - startApplication("C:\Git\Base\src\Netzme.apk", true): Started app at: 'C:\Git\Base\src\Netzme.apk'
+
+2019-03-05 23:50:49 - [MESSAGE][INFO] - Appium server started on port 62,478
+
+2019-03-05 23:51:34 - [MESSAGE][PASSED] - Started app at: 'C:\Git\Base\src\Netzme.apk'
+
+2019-03-05 23:51:34 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:39 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:40 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:42 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:43 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-05 23:51:44 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - JOIN NOW"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-05 23:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-05 23:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Reg.button - Phone number"), "08995097655", 0): Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-05 23:51:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:48 - [MESSAGE][PASSED] - Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-05 23:51:48 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.Checkbock - Term  condition"), 0): Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-05 23:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-05 23:51:49 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - REGISTER"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-05 23:51:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-05 23:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/android.widget.EditText0"), "0000", 0): Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-05 23:51:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:53 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-05 23:51:53 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - VERIFY"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-05 23:51:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:51:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-05 23:51:55 - [TEST_STEP][PASSED] - tap(findTestObject("General/Button permission - Allow"), 0): Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-05 23:51:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-05 23:52:04 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - SAVE"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-05 23:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-05 23:52:05 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.checkbox - Dont show me again"), 0): Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-05 23:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-05 23:52:34 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - CLOSE"), 0): Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE'
+
+2019-03-05 23:52:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Pesan" classname="Test Cases/Kirim Pesan" status="PASSED">
+         <system-out><![CDATA[2019-03-05 23:52:45 - [TEST_CASE][PASSED] - Test Cases/Kirim Pesan: Test Cases/Kirim Pesan
+
+2019-03-05 23:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton3"), 0): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-05 23:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-05 23:52:47 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.TextView3 - 08995097601"), 0): Tapped on element 'Object Repository/Smoke Test/android.widget.TextView3 - 08995097601'
+
+2019-03-05 23:52:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.TextView3 - 08995097601'
+
+2019-03-05 23:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Smoke Test/android.widget.EditText0 - Type message here"), "Test kirim pesan", 0): Text 'Test kirim pesan' has been set to element 'Object Repository/Smoke Test/android.widget.EditText0 - Type message here'
+
+2019-03-05 23:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:51 - [MESSAGE][PASSED] - Text 'Test kirim pesan' has been set to element 'Object Repository/Smoke Test/android.widget.EditText0 - Type message here'
+
+2019-03-05 23:52:51 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton0"), 0): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton0'
+
+2019-03-05 23:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton0'
+
+2019-03-05 23:52:53 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton1"), 0): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton1'
+
+2019-03-05 23:52:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-05 23:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 23:50:31 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/Kirim Pesan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
