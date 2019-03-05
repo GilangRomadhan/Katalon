@@ -35,8 +35,6 @@ Mobile.tap(findTestObject('Registrasi/Reg.Checkbock - Term  condition'), 0)
 
 Mobile.tap(findTestObject('Registrasi/Reg.button - REGISTER'), 0)
 
-Mobile.tap(findTestObject('Registrasi/Reg.button - Verification number'), 0)
-
 Mobile.setText(findTestObject('Registrasi/android.widget.EditText0'), '0000', 0)
 
 Mobile.tap(findTestObject('Registrasi/Reg.button - VERIFY'), 0)

@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Registrasi</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>e03066f9-205e-4e98-a251-59ec3cfa9f35</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Kirim pesan text</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Kirim pesan text</name>
+   <name>SmokeTest</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cd905584-8f9f-4ecb-a65f-d093c3b10854</testCaseGuid>
+   <testCaseGuid>fcd62e59-8d3a-4853-8da1-829b22fe902f</testCaseGuid>
 </TestCaseEntity>
