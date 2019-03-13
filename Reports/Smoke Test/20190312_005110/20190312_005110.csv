@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-12 00:51:14,2019-03-12 00:53:32,2m - 17.981s,PASSED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-12 00:51:14,2019-03-12 00:53:06,1m - 51.676s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-12 00:51:15,2019-03-12 00:52:11,56.402s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 10)",,Tap tombol NEXT,2019-03-12 00:52:11,2019-03-12 00:52:16,4.092s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:52:16,2019-03-12 00:52:17,1.303s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:52:17,2019-03-12 00:52:18,1.300s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:52:18,2019-03-12 00:52:20,1.400s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:52:20,2019-03-12 00:52:21,1.937s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-JOIN NOW""), 2)",,,2019-03-12 00:52:21,2019-03-12 00:52:23,2.045s,PASSED
+"setText(findTestObject(""Registrasi/reg.button-Phone number""), ""08995097655"", 2)",,,2019-03-12 00:52:23,2019-03-12 00:52:25,1.686s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbock-Term condition""), 2)",,,2019-03-12 00:52:25,2019-03-12 00:52:27,1.413s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-REGISTER""), 2)",,,2019-03-12 00:52:27,2019-03-12 00:52:30,2.992s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Verification Number""), ""0000"", 2)",,,2019-03-12 00:52:30,2019-03-12 00:52:31,1.888s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-VERIFY""), 2)",,,2019-03-12 00:52:31,2019-03-12 00:52:34,2.418s,PASSED
+"tap(findTestObject(""General/general.btn - Allow""), 10)",,,2019-03-12 00:52:34,2019-03-12 00:52:42,8.358s,PASSED
+"clearText(findTestObject(""Registrasi/reg.editText-Ganti Nick Name""), 2)",,,2019-03-12 00:52:42,2019-03-12 00:52:43,0.310s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Enter your name here""), ""QA Netzme"", 2)",,,2019-03-12 00:52:43,2019-03-12 00:52:46,2.985s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-SAVE""), 5)",,,2019-03-12 00:52:46,2019-03-12 00:52:48,2.371s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-12 00:52:48,2019-03-12 00:53:03,15.047s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbox-Dont show me again""), 5)",,,2019-03-12 00:53:03,2019-03-12 00:53:05,1.701s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-CLOSE""), 2)",,,2019-03-12 00:53:05,2019-03-12 00:53:06,1.260s,PASSED
+,,,,,,
+Test Cases/Ganti PP,,,2019-03-12 00:53:06,2019-03-12 00:53:29,23.033s,PASSED
+"tap(findTestObject(""Front View/frontView-Contact""), 1)",,"Header contact
+",2019-03-12 00:53:06,2019-03-12 00:53:08,1.626s,PASSED
+"tap(findTestObject(""Front View/frontView-User Profile""), 1)",,,2019-03-12 00:53:08,2019-03-12 00:53:10,2.357s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn-GOT IT""), 1)",,,2019-03-12 00:53:10,2019-03-12 00:53:11,1.198s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn-Edit Profile""), 1)",,,2019-03-12 00:53:11,2019-03-12 00:53:13,1.831s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn-Edit Photo Profile""), 1)",,,2019-03-12 00:53:13,2019-03-12 00:53:15,1.674s,PASSED
+"tap(findTestObject(""General/general.btn - Allow""), 1)",,,2019-03-12 00:53:15,2019-03-12 00:53:17,2.155s,PASSED
+"tap(findTestObject(""General/general.btn- Capture Image""), 1)",,,2019-03-12 00:53:17,2019-03-12 00:53:19,1.911s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn - CROP""), 1)",,,2019-03-12 00:53:19,2019-03-12 00:53:21,1.972s,PASSED
+"setText(findTestObject(""General/general.btn - Describe your photo""), ""Ganti Photo Profile"", 1)",,,2019-03-12 00:53:21,2019-03-12 00:53:23,1.691s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn.after.describe.photo - SAVE""), 1)",,,2019-03-12 00:53:23,2019-03-12 00:53:25,2.233s,PASSED
+"tap(findTestObject(""Edit Profile/profile.btn- Save after edit PP""), 1)",,,2019-03-12 00:53:25,2019-03-12 00:53:27,1.626s,PASSED
+"tap(findTestObject(""General/general.btn - Back""), 1)",,,2019-03-12 00:53:27,2019-03-12 00:53:29,2.411s,PASSED

@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-13 00:06:56,2019-03-13 00:06:56,0.591s,INCOMPLETE
+,,,,,,
+Test Cases/Smoke Test/Registrasi,,,2019-03-13 00:06:56,2019-03-13 00:06:56,0.060s,PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-13 00:07:59,2019-03-13 00:08:11,11.126s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Registrasi,,,2019-03-13 00:08:00,2019-03-13 00:08:10,9.528s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\APK"", false)",,Start Netzme,2019-03-13 00:08:01,2019-03-13 00:08:10,8.627s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Ganti Nick Name,,,2019-03-13 00:08:10,2019-03-13 00:08:10,0.577s,FAILED
+"tap(findTestObject(""Front View/frontView-Contact""), 3)",,,2019-03-13 00:08:10,2019-03-13 00:08:10,0.189s,FAILED

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 15:19:59,2019-03-10 15:22:19,2m - 19.811s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 15:20:00,2019-03-10 15:22:06,2m - 6.771s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 15:20:00,2019-03-10 15:20:59,58.726s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 15:20:59,2019-03-10 15:21:04,5.052s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 15:21:04,2019-03-10 15:21:07,2.769s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:21:07,2019-03-10 15:21:09,2.408s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:21:09,2019-03-10 15:21:11,2.055s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:21:11,2019-03-10 15:21:13,1.502s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:21:13,2019-03-10 15:21:15,1.525s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-10 15:21:15,2019-03-10 15:21:16,1.973s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-10 15:21:16,2019-03-10 15:21:19,2.761s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-10 15:21:19,2019-03-10 15:21:21,2.062s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-10 15:21:21,2019-03-10 15:21:24,3.110s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-10 15:21:24,2019-03-10 15:21:26,1.104s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-10 15:21:26,2019-03-10 15:21:29,3.127s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 5)",,,2019-03-10 15:21:29,2019-03-10 15:21:38,9.036s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-10 15:21:38,2019-03-10 15:21:39,1.668s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-10 15:21:39,2019-03-10 15:21:54,15.008s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-10 15:21:54,2019-03-10 15:21:59,5.047s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 15:21:59,2019-03-10 15:22:04,5.014s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-10 15:22:04,2019-03-10 15:22:06,1.852s,PASSED
+,,,,,,
+Test Cases/Ganti PP dan Nick name,,,2019-03-10 15:22:06,2019-03-10 15:22:16,9.529s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-10 15:22:07,2019-03-10 15:22:08,1.687s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.ImageView23""), 1)",,,2019-03-10 15:22:08,2019-03-10 15:22:12,4.030s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.Button0 - GOT IT""), 1)",,,2019-03-10 15:22:12,2019-03-10 15:22:16,3.432s,FAILED

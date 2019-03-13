@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-09 10:22:31,2019-03-09 10:22:34,2.608s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-09 10:22:32,2019-03-09 10:22:33,1.307s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-09 10:22:33,2019-03-09 10:22:33,0.563s,FAILED
+,,,,,,
+Test Cases/SmokeTest,,,2019-03-09 10:22:33,2019-03-09 10:22:34,0.759s,FAILED
+"startApplication(""C:\Git\Base\src\Netzme.apk"", true)",,,2019-03-09 10:22:34,2019-03-09 10:22:34,0.046s,FAILED

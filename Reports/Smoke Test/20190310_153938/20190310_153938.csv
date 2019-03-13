@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 15:39:42,2019-03-10 15:41:17,1m - 35.423s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 15:39:42,2019-03-10 15:41:11,1m - 28.927s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 15:39:44,2019-03-10 15:40:43,58.869s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 15:40:43,2019-03-10 15:40:48,5.079s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 15:40:48,2019-03-10 15:40:50,2.699s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:40:50,2019-03-10 15:40:52,1.854s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:40:52,2019-03-10 15:40:54,1.484s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:40:54,2019-03-10 15:40:55,1.566s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 15:40:55,2019-03-10 15:40:57,1.418s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-10 15:40:57,2019-03-10 15:40:59,2.338s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-10 15:40:59,2019-03-10 15:41:01,1.519s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-10 15:41:01,2019-03-10 15:41:02,1.666s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-10 15:41:02,2019-03-10 15:41:05,2.373s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-10 15:41:05,2019-03-10 15:41:11,6.655s,FAILED
+,,,,,,
+Test Cases/Ganti PP dan Nick name,,,2019-03-10 15:41:11,2019-03-10 15:41:14,2.943s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-10 15:41:12,2019-03-10 15:41:14,2.557s,FAILED

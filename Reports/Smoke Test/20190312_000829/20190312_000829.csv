@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-12 00:08:32,2019-03-12 00:10:31,1m - 58.569s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-12 00:08:33,2019-03-12 00:10:21,1m - 47.718s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-12 00:08:34,2019-03-12 00:09:29,55.749s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 10)",,Tap tombol NEXT,2019-03-12 00:09:29,2019-03-12 00:09:33,3.931s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:09:33,2019-03-12 00:09:35,1.354s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:09:35,2019-03-12 00:09:36,1.321s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:09:36,2019-03-12 00:09:37,1.420s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-12 00:09:37,2019-03-12 00:09:39,1.385s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-JOIN NOW""), 2)",,,2019-03-12 00:09:39,2019-03-12 00:09:41,1.946s,PASSED
+"setText(findTestObject(""Registrasi/reg.button-Phone number""), ""08995097655"", 2)",,,2019-03-12 00:09:41,2019-03-12 00:09:42,1.509s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbock-Term condition""), 2)",,,2019-03-12 00:09:42,2019-03-12 00:09:44,1.372s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-REGISTER""), 2)",,,2019-03-12 00:09:44,2019-03-12 00:09:46,2.850s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Verification Number""), ""0000"", 2)",,,2019-03-12 00:09:46,2019-03-12 00:09:48,1.116s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-VERIFY""), 2)",,,2019-03-12 00:09:48,2019-03-12 00:09:50,2.409s,PASSED
+"tap(findTestObject(""General/general.btn - Allow""), 10)",,,2019-03-12 00:09:50,2019-03-12 00:09:58,8.113s,PASSED
+"clearText(findTestObject(""Registrasi/reg.editText-Ganti Nick Name""), 2)",,,2019-03-12 00:09:58,2019-03-12 00:09:59,0.796s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Enter your name here""), ""QA Netzme"", 2)",,,2019-03-12 00:09:59,2019-03-12 00:10:02,3.063s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-SAVE""), 5)",,,2019-03-12 00:10:02,2019-03-12 00:10:04,2.274s,PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-12 00:10:04,2019-03-12 00:10:14,10.041s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbox-Dont show me again""), 2)",,,2019-03-12 00:10:14,2019-03-12 00:10:21,6.273s,FAILED
+,,,,,,
+Test Cases/Ganti PP,,,2019-03-12 00:10:21,2019-03-12 00:10:28,7.354s,FAILED
+"tap(findTestObject(""Front View/frontView-Contact""), 1)",,"Header contact
+",2019-03-12 00:10:21,2019-03-12 00:10:28,6.805s,FAILED

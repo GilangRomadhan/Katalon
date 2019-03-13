@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 22:13:32,2019-03-10 22:15:15,1m - 43.477s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 22:13:32,2019-03-10 22:15:09,1m - 36.742s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 22:13:33,2019-03-10 22:14:31,58.465s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 22:14:31,2019-03-10 22:14:36,5.072s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 22:14:36,2019-03-10 22:14:42,5.361s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:14:42,2019-03-10 22:14:43,1.302s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:14:43,2019-03-10 22:14:44,1.251s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:14:44,2019-03-10 22:14:46,1.264s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:14:46,2019-03-10 22:14:47,1.402s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-10 22:14:47,2019-03-10 22:14:49,1.912s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-10 22:14:49,2019-03-10 22:14:50,1.495s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-10 22:14:50,2019-03-10 22:14:52,1.347s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-10 22:14:52,2019-03-10 22:14:53,1.534s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-10 22:14:53,2019-03-10 22:15:00,6.681s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-10 22:15:00,2019-03-10 22:15:02,2.399s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 5)",,,2019-03-10 22:15:02,2019-03-10 22:15:09,6.634s,FAILED
+,,,,,,
+Test Cases/Ganti PP dan Nick name,,,2019-03-10 22:15:09,2019-03-10 22:15:12,3.085s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-10 22:15:09,2019-03-10 22:15:12,2.785s,FAILED

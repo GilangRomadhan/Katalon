@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="1" failures="0" errors="0" time="0" timestamp="2019-03-13 00:06:56" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190313_000652"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190313_000652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Registrasi" classname="Test Cases/Smoke Test/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-13 00:06:56 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Registrasi: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 00:06:56 - [TEST_SUITE][INCOMPLETE] - Smoke Test: null]]></system-out>
+      <system-err><![CDATA[2019-03-13 00:06:56 - [TEST_SUITE][INCOMPLETE] - Smoke Test: null]]></system-err>
+   </testsuite>
+</testsuites>

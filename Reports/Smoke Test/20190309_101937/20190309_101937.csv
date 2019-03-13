@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-09 10:19:41,2019-03-09 10:19:45,3.232s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-09 10:19:42,2019-03-09 10:19:44,1.388s,FAILED
+"startApplication(""C:\Git\Base\src\Netzme.apk"", true)",,Start Netzme,2019-03-09 10:19:43,2019-03-09 10:19:44,0.576s,FAILED
+,,,,,,
+Test Cases/SmokeTest,,,2019-03-09 10:19:44,2019-03-09 10:19:45,1.050s,FAILED
+"startApplication(""C:\Git\Base\src\Netzme.apk"", true)",,,2019-03-09 10:19:45,2019-03-09 10:19:45,0.025s,FAILED

@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-11 21:06:49,2019-03-11 21:09:28,2m - 39.029s,PASSED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-11 21:06:50,2019-03-11 21:09:01,2m - 11.823s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-11 21:06:50,2019-03-11 21:07:45,54.703s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,,2019-03-11 21:07:45,2019-03-11 21:08:00,15.157s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-11 21:08:00,2019-03-11 21:08:03,2.249s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-11 21:08:03,2019-03-11 21:08:04,1.574s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-11 21:08:04,2019-03-11 21:08:06,1.468s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-11 21:08:06,2019-03-11 21:08:07,1.412s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-11 21:08:07,2019-03-11 21:08:08,1.424s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-11 21:08:08,2019-03-11 21:08:10,2.040s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-11 21:08:10,2019-03-11 21:08:12,1.520s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-11 21:08:12,2019-03-11 21:08:13,1.393s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-11 21:08:13,2019-03-11 21:08:16,2.783s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-11 21:08:16,2019-03-11 21:08:17,1.098s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-11 21:08:17,2019-03-11 21:08:20,2.354s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 10)",,,2019-03-11 21:08:20,2019-03-11 21:08:29,9.291s,PASSED
+"clearText(findTestObject(""Posting story photo live/android.widget.EditText0 - Ganti Nick Name""), 0)",,,2019-03-11 21:08:29,2019-03-11 21:08:29,0.279s,PASSED
+"setText(findTestObject(""Posting story photo live/android.widget.EditText0 - Enter your name here""), ""QA Netzme"", 0)",,,2019-03-11 21:08:29,2019-03-11 21:08:32,2.993s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-11 21:08:32,2019-03-11 21:08:34,2.313s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-11 21:08:34,2019-03-11 21:08:49,15.007s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-11 21:08:49,2019-03-11 21:08:55,5.510s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-11 21:08:55,2019-03-11 21:09:00,5.003s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-11 21:09:00,2019-03-11 21:09:01,1.491s,PASSED
+,,,,,,
+Test Cases/Posting story photo live,,,2019-03-11 21:09:02,2019-03-11 21:09:26,24.112s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.ImageButton0 (2)""), 2)",,,2019-03-11 21:09:02,2019-03-11 21:09:04,1.803s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.ImageButton0 (2)""), 2)",,,2019-03-11 21:09:04,2019-03-11 21:09:06,1.979s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.Button1 - Allow""), 2)",,,2019-03-11 21:09:06,2019-03-11 21:09:09,3.750s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.CheckBox0 - Dont show me again (1)""), 2)",,,2019-03-11 21:09:09,2019-03-11 21:09:10,1.055s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,2019-03-11 21:09:10,2019-03-11 21:09:12,2.009s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.Button0 - GOT IT (1)""), 2)",,,2019-03-11 21:09:12,2019-03-11 21:09:14,1.219s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.ToggleButton1""), 2)",,,2019-03-11 21:09:14,2019-03-11 21:09:15,1.035s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.TextView2 - PHOTO (1)""), 2)",,,2019-03-11 21:09:15,2019-03-11 21:09:16,1.746s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.ImageButton0 (3)""), 2)",,,2019-03-11 21:09:16,2019-03-11 21:09:18,1.878s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.TextView1 - Post to Stories (1)""), 2)",,,2019-03-11 21:09:18,2019-03-11 21:09:20,1.930s,PASSED
+"setText(findTestObject(""Posting story photo live/android.widget.EditText0 - Describe your photo (1)""), ""Posting stories photo live"", 2)",,,2019-03-11 21:09:20,2019-03-11 21:09:22,1.687s,PASSED
+"tap(findTestObject(""Posting story photo live/android.widget.TextView1 - POST (1)""), 2)",,,2019-03-11 21:09:22,2019-03-11 21:09:26,3.704s,PASSED

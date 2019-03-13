@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="173" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="3" failures="0" errors="0" time="173" timestamp="2019-03-11 20:32:39" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190311_203235"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190311_203235\\appium.log, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190311_203235\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="RMX1805"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="b9decb5a"/>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi" classname="Test Cases/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-11 20:32:39 - [TEST_CASE][PASSED] - Test Cases/Registrasi: Test Cases/Registrasi
+
+2019-03-11 20:32:40 - [TEST_STEP][PASSED] - startApplication("C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk", true): Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-11 20:32:47 - [MESSAGE][INFO] - Appium server started on port 58,725
+
+2019-03-11 20:33:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-11 20:33:35 - [TEST_STEP][PASSED] - delay(15, CONTINUE_ON_FAILURE): Delayed 15 second(s)
+
+2019-03-11 20:33:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-11 20:33:50 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:53 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:54 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:56 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:57 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-11 20:33:59 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - JOIN NOW"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-11 20:34:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-11 20:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Reg.button - Phone number"), "08995097655", 5): Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-11 20:34:02 - [MESSAGE][PASSED] - Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-11 20:34:02 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.Checkbock - Term  condition"), 5): Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-11 20:34:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-11 20:34:04 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - REGISTER"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-11 20:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-11 20:34:07 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/android.widget.EditText0"), "0000", 5): Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-11 20:34:08 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-11 20:34:08 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - VERIFY"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-11 20:34:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-11 20:34:10 - [TEST_STEP][PASSED] - tap(findTestObject("General/Button permission - Allow"), 10): Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-11 20:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-11 20:34:18 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - SAVE"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-11 20:34:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-11 20:34:20 - [TEST_STEP][PASSED] - delay(15, CONTINUE_ON_FAILURE): Delayed 15 second(s)
+
+2019-03-11 20:34:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-11 20:34:35 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.checkbox - Dont show me again"), 30): Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-11 20:34:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-11 20:34:46 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-11 20:34:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-11 20:34:51 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - CLOSE"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE'
+
+2019-03-11 20:34:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ganti PP" classname="Test Cases/Ganti PP" status="PASSED">
+         <system-out><![CDATA[2019-03-11 20:34:53 - [TEST_CASE][PASSED] - Test Cases/Ganti PP: Test Cases/Ganti PP
+
+2019-03-11 20:34:54 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton3"), 1): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-11 20:34:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-11 20:34:55 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageView25"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageView25'
+
+2019-03-11 20:34:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageView25'
+
+2019-03-11 20:34:58 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - GOT IT"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - GOT IT'
+
+2019-03-11 20:35:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - GOT IT'
+
+2019-03-11 20:35:00 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.RelativeLayout5"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout5'
+
+2019-03-11 20:35:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout5'
+
+2019-03-11 20:35:02 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.RelativeLayout1"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout1'
+
+2019-03-11 20:35:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout1'
+
+2019-03-11 20:35:03 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button1 - Allow"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button1 - Allow'
+
+2019-03-11 20:35:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button1 - Allow'
+
+2019-03-11 20:35:05 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageButton0"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0'
+
+2019-03-11 20:35:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0'
+
+2019-03-11 20:35:07 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - CROP"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - CROP'
+
+2019-03-11 20:35:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - CROP'
+
+2019-03-11 20:35:10 - [TEST_STEP][PASSED] - setText(findTestObject("Ganti PP/android.widget.EditText0 - Describe your photo"), "Ganti Photo Profile", 1): Text 'Ganti Photo Profile' has been set to element 'Object Repository/Ganti PP/android.widget.EditText0 - Describe your photo'
+
+2019-03-11 20:35:11 - [MESSAGE][PASSED] - Text 'Ganti Photo Profile' has been set to element 'Object Repository/Ganti PP/android.widget.EditText0 - Describe your photo'
+
+2019-03-11 20:35:11 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.TextView1 - SAVE"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.TextView1 - SAVE'
+
+2019-03-11 20:35:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.TextView1 - SAVE'
+
+2019-03-11 20:35:14 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - SAVE"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - SAVE'
+
+2019-03-11 20:35:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - SAVE'
+
+2019-03-11 20:35:16 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageButton0 (1)"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0 (1)'
+
+2019-03-11 20:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0 (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ganti Nick Name" classname="Test Cases/Ganti Nick Name" status="PASSED">
+         <system-out><![CDATA[2019-03-11 20:35:18 - [TEST_CASE][PASSED] - Test Cases/Ganti Nick Name: Test Cases/Ganti Nick Name
+
+2019-03-11 20:35:18 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.ImageButton3"), 0): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageButton3'
+
+2019-03-11 20:35:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageButton3'
+
+2019-03-11 20:35:19 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.ImageView25"), 0): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageView25'
+
+2019-03-11 20:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageView25'
+
+2019-03-11 20:35:22 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name"), 0): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+
+2019-03-11 20:35:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+
+2019-03-11 20:35:23 - [TEST_STEP][PASSED] - clearText(findTestObject("Ganti Nick Name/android.widget.EditText0 - Ganti Nick Name"), 0): Element 'Object Repository/Ganti Nick Name/android.widget.EditText0 - Ganti Nick Name' text is cleared
+
+2019-03-11 20:35:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:24 - [MESSAGE][PASSED] - Element 'Object Repository/Ganti Nick Name/android.widget.EditText0 - Ganti Nick Name' text is cleared
+
+2019-03-11 20:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Ganti Nick Name/android.widget.EditText0 - Your name"), "Ganti Nick Name", 0): Text 'Ganti Nick Name' has been set to element 'Object Repository/Ganti Nick Name/android.widget.EditText0 - Your name'
+
+2019-03-11 20:35:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:26 - [MESSAGE][PASSED] - Text 'Ganti Nick Name' has been set to element 'Object Repository/Ganti Nick Name/android.widget.EditText0 - Your name'
+
+2019-03-11 20:35:26 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.Button0 - SAVE"), 0): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.Button0 - SAVE'
+
+2019-03-11 20:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.Button0 - SAVE'
+
+2019-03-11 20:35:28 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.ImageButton0"), 0): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageButton0'
+
+2019-03-11 20:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 20:35:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageButton0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-11 20:32:39 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/Ganti Nick Name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 22:24:37,2019-03-10 22:25:57,1m - 19.989s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 22:24:38,2019-03-10 22:25:51,1m - 13.449s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 22:24:38,2019-03-10 22:25:39,1m - 0.524s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 22:25:39,2019-03-10 22:25:44,5.091s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 22:25:44,2019-03-10 22:25:51,6.998s,FAILED
+,,,,,,
+Test Cases/Ganti PP dan Nick name,,,2019-03-10 22:25:51,2019-03-10 22:25:54,3.274s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-10 22:25:51,2019-03-10 22:25:54,2.864s,FAILED

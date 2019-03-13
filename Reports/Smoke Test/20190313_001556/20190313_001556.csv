@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-13 00:16:00,2019-03-13 00:18:02,2m - 1.725s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Registrasi,,,2019-03-13 00:16:01,2019-03-13 00:17:37,1m - 36.407s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\APK\Netzme.apk"", false)",,Start Netzme,2019-03-13 00:16:02,2019-03-13 00:16:44,42.772s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 10)",,Tap tombol NEXT,2019-03-13 00:16:44,2019-03-13 00:16:49,4.324s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-13 00:16:49,2019-03-13 00:16:50,1.288s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-13 00:16:50,2019-03-13 00:16:51,1.288s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-13 00:16:51,2019-03-13 00:16:53,1.599s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-Next""), 2)",,,2019-03-13 00:16:53,2019-03-13 00:16:54,1.463s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-JOIN NOW""), 2)",,,2019-03-13 00:16:54,2019-03-13 00:16:56,1.978s,PASSED
+"setText(findTestObject(""Registrasi/reg.button-Phone number""), ""08995097655"", 2)",,,2019-03-13 00:16:56,2019-03-13 00:16:58,2.028s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbock-Term condition""), 2)",,,2019-03-13 00:16:58,2019-03-13 00:17:00,1.369s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-REGISTER""), 2)",,,2019-03-13 00:17:00,2019-03-13 00:17:03,2.777s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Verification Number""), ""0000"", 2)",,,2019-03-13 00:17:03,2019-03-13 00:17:04,1.112s,PASSED
+"tap(findTestObject(""Registrasi/reg.btn-VERIFY""), 2)",,,2019-03-13 00:17:04,2019-03-13 00:17:06,2.342s,PASSED
+"tap(findTestObject(""General/general.btn - Allow""), 10)",,,2019-03-13 00:17:06,2019-03-13 00:17:14,8.111s,PASSED
+"clearText(findTestObject(""Registrasi/reg.editText-Ganti Nick Name""), 2)",,,2019-03-13 00:17:14,2019-03-13 00:17:14,0.302s,PASSED
+"setText(findTestObject(""Registrasi/reg.editText-Enter your name here""), ""QA Netzme"", 2)",,,2019-03-13 00:17:14,2019-03-13 00:17:17,2.972s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-SAVE""), 5)",,,2019-03-13 00:17:17,2019-03-13 00:17:19,1.520s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-13 00:17:19,2019-03-13 00:17:34,15.039s,PASSED
+"tap(findTestObject(""Registrasi/reg.checkbox-Dont show me again""), 5)",,,2019-03-13 00:17:34,2019-03-13 00:17:36,2.030s,PASSED
+"tap(findTestObject(""Registrasi/reg.button-CLOSE""), 2)",,,2019-03-13 00:17:36,2019-03-13 00:17:37,1.146s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Kirim Pesan Text,,,2019-03-13 00:17:37,2019-03-13 00:17:54,16.515s,PASSED
+"tap(findTestObject(""Front View/frontView-Contact""), 1)",,,2019-03-13 00:17:37,2019-03-13 00:17:39,1.722s,PASSED
+"tap(findTestObject(""Front View/frontView-Smart Button""), 1)",,,2019-03-13 00:17:39,2019-03-13 00:17:41,1.835s,PASSED
+"tap(findTestObject(""Front View/frontView - Search""), 1)",,,2019-03-13 00:17:41,2019-03-13 00:17:44,2.596s,PASSED
+"setText(findTestObject(""General/general.textField - Search contact  group""), ""08995097611"", 1)",,,2019-03-13 00:17:44,2019-03-13 00:17:46,2.221s,PASSED
+"tap(findTestObject(""General/general.btn - 08995097611""), 1)",,,2019-03-13 00:17:46,2019-03-13 00:17:48,2.542s,PASSED
+"setText(findTestObject(""Chat/chat.btn - Type message here""), ""Test Send Text Message by GR"", 1)",,,2019-03-13 00:17:48,2019-03-13 00:17:50,1.594s,PASSED
+"verifyElementVisible(findTestObject(""Chat/chat.symbol-Terkirim""), 1, OPTIONAL)",,,2019-03-13 00:17:50,2019-03-13 00:17:52,2.007s,PASSED
+"tap(findTestObject(""General/general.btn - Back""), 0)",,,2019-03-13 00:17:52,2019-03-13 00:17:54,1.704s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Ganti PP,,,2019-03-13 00:17:54,2019-03-13 00:17:56,2.829s,FAILED
+"tap(findTestObject(""Front View/frontView-Contact""), 1)",,"Header contact
+",2019-03-13 00:17:54,2019-03-13 00:17:56,2.529s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Ganti Nick Name,,,2019-03-13 00:17:56,2019-03-13 00:18:01,4.806s,FAILED
+"tap(findTestObject(""Front View/frontView-Contact""), 3)",,,2019-03-13 00:17:57,2019-03-13 00:18:01,4.543s,FAILED

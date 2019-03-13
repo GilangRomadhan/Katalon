@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-11 22:46:37,2019-03-11 22:47:14,37.396s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-11 22:46:38,2019-03-11 22:47:12,33.720s,FAILED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-11 22:46:39,2019-03-11 22:47:12,32.829s,FAILED
+,,,,,,
+Test Cases/Kirim pesan text,,,2019-03-11 22:47:12,2019-03-11 22:47:12,0.771s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 3)",,"Button Contact
+",2019-03-11 22:47:12,2019-03-11 22:47:12,0.427s,FAILED
+,,,,,,
+Test Cases/Kirim pesan gambar,,,2019-03-11 22:47:12,2019-03-11 22:47:13,0.372s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 3)",,"Header contact
+",2019-03-11 22:47:13,2019-03-11 22:47:13,0.028s,FAILED
+,,,,,,
+Test Cases/Kirim pesan video,,,2019-03-11 22:47:13,2019-03-11 22:47:13,0.406s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 2)",,"Header contact
+",2019-03-11 22:47:13,2019-03-11 22:47:13,0.015s,FAILED
+,,,,,,
+Test Cases/Ganti PP,,,2019-03-11 22:47:13,2019-03-11 22:47:14,0.375s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-11 22:47:13,2019-03-11 22:47:14,0.031s,FAILED
+,,,,,,
+Test Cases/Ganti Nick Name,,,2019-03-11 22:47:14,2019-03-11 22:47:14,0.327s,FAILED
+"tap(findTestObject(""Ganti Nick Name/android.widget.ImageButton3""), 3)",,,2019-03-11 22:47:14,2019-03-11 22:47:14,0.017s,FAILED

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-09 15:13:46,2019-03-09 15:16:20,2m - 33.685s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-09 15:13:47,2019-03-09 15:15:57,2m - 10.614s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-09 15:13:48,2019-03-09 15:14:47,59.910s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-09 15:14:47,2019-03-09 15:14:53,5.085s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-09 15:14:53,2019-03-09 15:14:55,2.126s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:14:55,2019-03-09 15:14:56,1.608s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:14:56,2019-03-09 15:14:58,1.548s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:14:58,2019-03-09 15:14:59,1.453s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:14:59,2019-03-09 15:15:01,1.420s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-09 15:15:01,2019-03-09 15:15:03,2.041s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-09 15:15:03,2019-03-09 15:15:04,1.504s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-09 15:15:04,2019-03-09 15:15:06,1.391s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-09 15:15:06,2019-03-09 15:15:08,2.860s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-09 15:15:08,2019-03-09 15:15:10,1.109s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-09 15:15:10,2019-03-09 15:15:12,2.359s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 5)",,,2019-03-09 15:15:12,2019-03-09 15:15:20,8.135s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-09 15:15:20,2019-03-09 15:15:22,1.729s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-09 15:15:22,2019-03-09 15:15:37,15.007s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-09 15:15:37,2019-03-09 15:15:51,14.452s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-09 15:15:51,2019-03-09 15:15:56,5.006s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-09 15:15:56,2019-03-09 15:15:57,1.193s,PASSED
+,,,,,,
+Test Cases/Kirim pesan text,,,2019-03-09 15:15:57,2019-03-09 15:16:07,9.932s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 3)",,"Button Contact
+",2019-03-09 15:15:58,2019-03-09 15:15:59,1.527s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601""), 3)",,"Pilih contact
+",2019-03-09 15:15:59,2019-03-09 15:16:01,2.091s,PASSED
+"setText(findTestObject(""Smoke Test/android.widget.EditText0 - Type message here""), ""Test kirim pesan"", 3)",,"Ketik pesan
+",2019-03-09 15:16:01,2019-03-09 15:16:03,1.576s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0""), 3)",,"Kirim pesan
+",2019-03-09 15:16:03,2019-03-09 15:16:05,1.778s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton1""), 3)",,"Exit from chat
+",2019-03-09 15:16:05,2019-03-09 15:16:07,2.644s,PASSED
+,,,,,,
+Test Cases/Kirim pesan video,,,2019-03-09 15:16:07,2019-03-09 15:16:17,9.507s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 2)",,"Header contact
+",2019-03-09 15:16:08,2019-03-09 15:16:09,1.470s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601 (1)""), 2)",,Pilih contact,2019-03-09 15:16:09,2019-03-09 15:16:11,2.044s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (1)""), 2)",,,2019-03-09 15:16:11,2019-03-09 15:16:13,1.872s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView0 - VIDEO""), 2)",,Pilih  capture video,2019-03-09 15:16:13,2019-03-09 15:16:17,3.773s,FAILED

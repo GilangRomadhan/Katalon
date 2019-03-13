@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 22:31:10,2019-03-10 22:33:57,2m - 46.841s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 22:31:10,2019-03-10 22:33:21,2m - 11.221s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 22:31:11,2019-03-10 22:32:09,57.757s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,,2019-03-10 22:32:09,2019-03-10 22:32:24,15.049s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 22:32:24,2019-03-10 22:32:26,2.186s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:32:26,2019-03-10 22:32:27,1.620s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:32:27,2019-03-10 22:32:29,1.525s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:32:29,2019-03-10 22:32:30,1.426s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 22:32:30,2019-03-10 22:32:32,1.421s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-10 22:32:32,2019-03-10 22:32:34,1.997s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-10 22:32:34,2019-03-10 22:32:35,1.545s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-10 22:32:35,2019-03-10 22:32:37,1.391s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-10 22:32:37,2019-03-10 22:32:40,2.785s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-10 22:32:40,2019-03-10 22:32:41,1.131s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-10 22:32:41,2019-03-10 22:32:43,2.368s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 10)",,,2019-03-10 22:32:43,2019-03-10 22:32:52,9.000s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-10 22:32:52,2019-03-10 22:32:54,1.775s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-10 22:32:54,2019-03-10 22:33:09,15.007s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-10 22:33:09,2019-03-10 22:33:15,5.760s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 22:33:15,2019-03-10 22:33:20,5.007s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-10 22:33:20,2019-03-10 22:33:21,1.813s,PASSED
+,,,,,,
+Test Cases/Ganti PP dan Nick name,,,2019-03-10 22:33:21,2019-03-10 22:33:54,32.290s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 1)",,"Header contact
+",2019-03-10 22:33:22,2019-03-10 22:33:23,1.642s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.ImageView25""), 1)",,,2019-03-10 22:33:23,2019-03-10 22:33:26,2.482s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.Button0 - GOT IT""), 1)",,,2019-03-10 22:33:26,2019-03-10 22:33:27,1.209s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.RelativeLayout5""), 1)",,,2019-03-10 22:33:27,2019-03-10 22:33:29,2.253s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.RelativeLayout1""), 1)",,,2019-03-10 22:33:29,2019-03-10 22:33:31,1.622s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.Button1 - Allow""), 1)",,,2019-03-10 22:33:31,2019-03-10 22:33:33,2.106s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.ImageButton0""), 1)",,,2019-03-10 22:33:33,2019-03-10 22:33:35,1.914s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.Button0 - CROP""), 1)",,,2019-03-10 22:33:35,2019-03-10 22:33:37,2.027s,PASSED
+"setText(findTestObject(""Ganti PP and Nickname/android.widget.EditText0 - Describe your photo""), ""Ganti Photo Profile"", 1)",,,2019-03-10 22:33:37,2019-03-10 22:33:39,1.748s,PASSED
+"tap(findTestObject(""Ganti PP and Nickname/android.widget.TextView1 - SAVE""), 1)",,,2019-03-10 22:33:39,2019-03-10 22:33:41,2.127s,PASSED
+"setText(findTestObject(""Ganti PP and Nickname/android.widget.EditText0 - Ganti Nick Name""), ""Ganti Nick Name"", 1)",,,2019-03-10 22:33:41,2019-03-10 22:33:54,12.871s,FAILED

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="171" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke Test" tests="2" failures="1" errors="0" time="171" timestamp="2019-03-10 22:53:17" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\appium.log, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\1552233364206.png, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\1552233365271.png"/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="RMX1805"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="b9decb5a"/>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi" classname="Test Cases/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-10 22:53:17 - [TEST_CASE][PASSED] - Test Cases/Registrasi: Test Cases/Registrasi
+
+2019-03-10 22:53:18 - [TEST_STEP][PASSED] - startApplication("C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk", true): Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-10 22:53:23 - [MESSAGE][INFO] - Appium server started on port 52,568
+
+2019-03-10 22:54:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-10 22:54:12 - [TEST_STEP][PASSED] - delay(15, CONTINUE_ON_FAILURE): Delayed 15 second(s)
+
+2019-03-10 22:54:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-10 22:54:27 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:29 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:31 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:33 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:34 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - NEXT"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - NEXT'
+
+2019-03-10 22:54:35 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - JOIN NOW"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-10 22:54:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - JOIN NOW'
+
+2019-03-10 22:54:37 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Reg.button - Phone number"), "08995097655", 5): Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-10 22:54:39 - [MESSAGE][PASSED] - Text '08995097655' has been set to element 'Object Repository/Registrasi/Reg.button - Phone number'
+
+2019-03-10 22:54:39 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.Checkbock - Term  condition"), 5): Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-10 22:54:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.Checkbock - Term  condition'
+
+2019-03-10 22:54:40 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - REGISTER"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-10 22:54:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - REGISTER'
+
+2019-03-10 22:54:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/android.widget.EditText0"), "0000", 5): Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-10 22:54:44 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Registrasi/android.widget.EditText0'
+
+2019-03-10 22:54:44 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - VERIFY"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-10 22:54:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - VERIFY'
+
+2019-03-10 22:54:47 - [TEST_STEP][PASSED] - tap(findTestObject("General/Button permission - Allow"), 10): Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-10 22:54:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/Button permission - Allow'
+
+2019-03-10 22:54:55 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - SAVE"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-10 22:54:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - SAVE'
+
+2019-03-10 22:54:56 - [TEST_STEP][PASSED] - delay(15, CONTINUE_ON_FAILURE): Delayed 15 second(s)
+
+2019-03-10 22:55:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-10 22:55:11 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.checkbox - Dont show me again"), 30): Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-10 22:55:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.checkbox - Dont show me again'
+
+2019-03-10 22:55:26 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-10 22:55:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-10 22:55:31 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/Reg.button - CLOSE"), 5): Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE'
+
+2019-03-10 22:55:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/Reg.button - CLOSE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ganti PP" classname="Test Cases/Ganti PP" status="PASSED">
+         <system-out><![CDATA[2019-03-10 22:55:32 - [TEST_CASE][PASSED] - Test Cases/Ganti PP: Test Cases/Ganti PP
+
+2019-03-10 22:55:32 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton3"), 1): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-10 22:55:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-10 22:55:34 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageView25"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageView25'
+
+2019-03-10 22:55:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageView25'
+
+2019-03-10 22:55:37 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - GOT IT"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - GOT IT'
+
+2019-03-10 22:55:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - GOT IT'
+
+2019-03-10 22:55:38 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.RelativeLayout5"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout5'
+
+2019-03-10 22:55:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout5'
+
+2019-03-10 22:55:40 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.RelativeLayout1"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout1'
+
+2019-03-10 22:55:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.RelativeLayout1'
+
+2019-03-10 22:55:42 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button1 - Allow"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button1 - Allow'
+
+2019-03-10 22:55:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button1 - Allow'
+
+2019-03-10 22:55:44 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageButton0"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0'
+
+2019-03-10 22:55:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0'
+
+2019-03-10 22:55:46 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - CROP"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - CROP'
+
+2019-03-10 22:55:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - CROP'
+
+2019-03-10 22:55:48 - [TEST_STEP][PASSED] - setText(findTestObject("Ganti PP/android.widget.EditText0 - Describe your photo"), "Ganti Photo Profile", 1): Text 'Ganti Photo Profile' has been set to element 'Object Repository/Ganti PP/android.widget.EditText0 - Describe your photo'
+
+2019-03-10 22:55:50 - [MESSAGE][PASSED] - Text 'Ganti Photo Profile' has been set to element 'Object Repository/Ganti PP/android.widget.EditText0 - Describe your photo'
+
+2019-03-10 22:55:50 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.TextView1 - SAVE"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.TextView1 - SAVE'
+
+2019-03-10 22:55:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.TextView1 - SAVE'
+
+2019-03-10 22:55:52 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.Button0 - SAVE"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - SAVE'
+
+2019-03-10 22:55:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.Button0 - SAVE'
+
+2019-03-10 22:55:53 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti PP/android.widget.ImageButton0 (1)"), 1): Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0 (1)'
+
+2019-03-10 22:55:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti PP/android.widget.ImageButton0 (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ganti Nick Name" classname="Test Cases/Ganti Nick Name" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Ganti Nick Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-10 22:55:55 - [TEST_CASE][FAILED] - Test Cases/Ganti Nick Name: Test Cases/Ganti Nick Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)
+
+
+2019-03-10 22:55:56 - [TEST_STEP][PASSED] - tap(findTestObject("Smoke Test/android.widget.ImageButton3"), 1): Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-10 22:55:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke Test/android.widget.ImageButton3'
+
+2019-03-10 22:55:57 - [TEST_STEP][PASSED] - tap(findTestObject("Ganti Nick Name/android.widget.ImageView23"), 1): Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageView23'
+
+2019-03-10 22:56:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ganti Nick Name/android.widget.ImageView23'
+
+2019-03-10 22:56:03 - [TEST_STEP][FAILED] - tap(findTestObject("Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name"), 1): tap(findTestObject("Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name"), 1) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)
+
+
+2019-03-10 22:56:05 - [MESSAGE][FAILED] - Object Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name not found
+[[ATTACHMENT|C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\1552233364206.png]]
+
+2019-03-10 22:56:06 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+[[ATTACHMENT|C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190310_225314\\1552233365271.png]]
+
+2019-03-10 22:56:06 - [MESSAGE][FAILED] - tap(findTestObject("Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name"), 1) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-10 22:55:55 - [TEST_CASE][FAILED] - Test Cases/Ganti Nick Name: Test Cases/Ganti Nick Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-10 22:53:17 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Ganti Nick Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-10 22:53:17 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Ganti Nick Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Ganti Nick Name/android.widget.TextView8 - Ganti Nick Name'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:485)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Ganti Nick Name.run(Ganti Nick Name:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552233194469.run(TempTestSuite1552233194469.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

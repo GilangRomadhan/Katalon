@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-09 15:10:42,2019-03-09 15:13:00,2m - 17.621s,FAILED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-09 15:10:43,2019-03-09 15:12:47,2m - 3.945s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-09 15:10:44,2019-03-09 15:11:43,58.349s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-09 15:11:43,2019-03-09 15:11:48,5.071s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-09 15:11:48,2019-03-09 15:11:50,1.899s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:11:50,2019-03-09 15:11:51,1.550s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:11:51,2019-03-09 15:11:53,1.474s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:11:53,2019-03-09 15:11:54,1.409s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-09 15:11:54,2019-03-09 15:11:56,1.380s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-09 15:11:56,2019-03-09 15:11:58,2.048s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-09 15:11:58,2019-03-09 15:11:59,1.495s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-09 15:11:59,2019-03-09 15:12:01,1.381s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-09 15:12:01,2019-03-09 15:12:03,2.880s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-09 15:12:03,2019-03-09 15:12:05,1.110s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-09 15:12:05,2019-03-09 15:12:07,2.364s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 5)",,,2019-03-09 15:12:07,2019-03-09 15:12:15,8.379s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-09 15:12:15,2019-03-09 15:12:17,1.794s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-09 15:12:17,2019-03-09 15:12:32,15.009s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-09 15:12:32,2019-03-09 15:12:41,8.747s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-09 15:12:41,2019-03-09 15:12:46,5.004s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-09 15:12:46,2019-03-09 15:12:47,1.317s,PASSED
+,,,,,,
+Test Cases/Kirim pesan video,,,2019-03-09 15:12:47,2019-03-09 15:12:57,9.814s,FAILED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 2)",,"Header contact
+",2019-03-09 15:12:47,2019-03-09 15:12:49,1.675s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601 (1)""), 2)",,Pilih contact,2019-03-09 15:12:49,2019-03-09 15:12:51,2.270s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (1)""), 2)",,,2019-03-09 15:12:51,2019-03-09 15:12:53,1.782s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView0 - VIDEO""), 2)",,Pilih  capture video,2019-03-09 15:12:53,2019-03-09 15:12:57,3.799s,FAILED

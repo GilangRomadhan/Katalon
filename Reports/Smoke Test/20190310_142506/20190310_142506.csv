@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-03-10 14:25:10,2019-03-10 14:30:05,4m - 54.579s,PASSED
+,,,,,,
+Test Cases/Registrasi,,,2019-03-10 14:25:11,2019-03-10 14:27:17,2m - 6.351s,PASSED
+"startApplication(""C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk"", true)",,Start Netzme,2019-03-10 14:25:11,2019-03-10 14:26:10,58.878s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 14:26:10,2019-03-10 14:26:15,5.088s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,Tap tombol NEXT,2019-03-10 14:26:15,2019-03-10 14:26:18,2.780s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 14:26:18,2019-03-10 14:26:20,2.166s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 14:26:20,2019-03-10 14:26:22,1.462s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 14:26:22,2019-03-10 14:26:23,1.575s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - NEXT""), 5)",,,2019-03-10 14:26:23,2019-03-10 14:26:25,1.438s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - JOIN NOW""), 5)",,,2019-03-10 14:26:25,2019-03-10 14:26:27,1.997s,PASSED
+"setText(findTestObject(""Registrasi/Reg.button - Phone number""), ""08995097655"", 5)",,,2019-03-10 14:26:27,2019-03-10 14:26:28,1.587s,PASSED
+"tap(findTestObject(""Registrasi/Reg.Checkbock - Term  condition""), 5)",,,2019-03-10 14:26:28,2019-03-10 14:26:30,1.926s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - REGISTER""), 5)",,,2019-03-10 14:26:30,2019-03-10 14:26:34,3.474s,PASSED
+"setText(findTestObject(""Registrasi/android.widget.EditText0""), ""0000"", 5)",,,2019-03-10 14:26:34,2019-03-10 14:26:36,2.117s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - VERIFY""), 5)",,,2019-03-10 14:26:36,2019-03-10 14:26:39,2.678s,PASSED
+"tap(findTestObject(""General/Button permission - Allow""), 5)",,,2019-03-10 14:26:39,2019-03-10 14:26:48,9.319s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - SAVE""), 5)",,,2019-03-10 14:26:48,2019-03-10 14:26:50,1.739s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,"Wait loading
+",2019-03-10 14:26:50,2019-03-10 14:27:05,15.005s,PASSED
+"tap(findTestObject(""Registrasi/Reg.checkbox - Dont show me again""), 30)",,,2019-03-10 14:27:05,2019-03-10 14:27:10,5.126s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,2019-03-10 14:27:10,2019-03-10 14:27:15,5.011s,PASSED
+"tap(findTestObject(""Registrasi/Reg.button - CLOSE""), 5)",,,2019-03-10 14:27:15,2019-03-10 14:27:17,2.190s,PASSED
+,,,,,,
+Test Cases/Kirim pesan text,,,2019-03-10 14:27:17,2019-03-10 14:27:28,11.357s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 3)",,"Button Contact
+",2019-03-10 14:27:17,2019-03-10 14:27:20,2.300s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601""), 3)",,"Pilih contact
+",2019-03-10 14:27:20,2019-03-10 14:27:22,2.232s,PASSED
+"setText(findTestObject(""Smoke Test/android.widget.EditText0 - Type message here""), ""Test kirim pesan"", 3)",,"Ketik pesan
+",2019-03-10 14:27:22,2019-03-10 14:27:24,2.491s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0""), 3)",,"Kirim pesan
+",2019-03-10 14:27:24,2019-03-10 14:27:26,1.769s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton1""), 3)",,"Exit from chat
+",2019-03-10 14:27:26,2019-03-10 14:27:28,2.198s,PASSED
+,,,,,,
+Test Cases/Kirim pesan gambar,,,2019-03-10 14:27:28,2019-03-10 14:28:01,32.787s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 3)",,"Header contact
+",2019-03-10 14:27:29,2019-03-10 14:27:30,1.618s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601 (1)""), 3)",,"Pilih contact
+",2019-03-10 14:27:30,2019-03-10 14:27:32,2.001s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (1)""), 3)",,Pilih send image,2019-03-10 14:27:32,2019-03-10 14:27:35,2.526s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.Button1 - Allow""), 3)",,"Allow permission
+",2019-03-10 14:27:35,2019-03-10 14:27:38,3.113s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView2 - PHOTO""), 3)",,Pilih pesan gambar,2019-03-10 14:27:38,2019-03-10 14:27:40,1.486s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ToggleButton1""), 3)",,Change front camera,2019-03-10 14:27:40,2019-03-10 14:27:41,1.634s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (2)""), 3)",,"Capture image
+",2019-03-10 14:27:41,2019-03-10 14:27:44,2.506s,PASSED
+"setText(findTestObject(""Smoke Test/android.widget.EditText0 - Describe your photo""), ""Kirim pesan gambar"", 3)",,Input description,2019-03-10 14:27:44,2019-03-10 14:27:46,2.037s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView2 - SEND""), 3)",,Send Image,2019-03-10 14:27:46,2019-03-10 14:27:49,2.956s,PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,"Waiting upload 
+",2019-03-10 14:27:49,2019-03-10 14:27:59,10.009s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton1""), 3)",,Back to page contact list,2019-03-10 14:27:59,2019-03-10 14:28:01,2.528s,PASSED
+,,,,,,
+Test Cases/Kirim pesan video,,,2019-03-10 14:28:01,2019-03-10 14:30:02,2m - 0.502s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton3""), 2)",,"Header contact
+",2019-03-10 14:28:02,2019-03-10 14:28:04,2.290s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView3 - 08995097601 (1)""), 2)",,Pilih contact,2019-03-10 14:28:04,2019-03-10 14:28:06,2.010s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (1)""), 2)",,"Pilih send image/video
+",2019-03-10 14:28:06,2019-03-10 14:28:09,2.575s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView0 - VIDEO""), 2)",,Pilih  capture video,2019-03-10 14:28:09,2019-03-10 14:28:10,1.430s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (3)""), 2)",,Start video,2019-03-10 14:28:10,2019-03-10 14:28:21,11.007s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,2019-03-10 14:28:21,2019-03-10 14:28:24,3.006s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton0 (4)""), 5)",,End video,2019-03-10 14:28:24,2019-03-10 14:29:36,1m - 11.888s,PASSED
+"setText(findTestObject(""Smoke Test/android.widget.EditText0 - Describe your video""), ""Kirim video lewat telpon"", 2)",,Kirim deskripsi video,2019-03-10 14:29:36,2019-03-10 14:29:40,4.152s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.TextView2 - SEND (1)""), 2)",,Kirim video,2019-03-10 14:29:40,2019-03-10 14:29:43,3.109s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.Button0 - GOT IT""), 2)",,Pop up knock,2019-03-10 14:29:43,2019-03-10 14:29:45,1.364s,PASSED
+"delay(15, CONTINUE_ON_FAILURE)",,,2019-03-10 14:29:45,2019-03-10 14:30:00,15.004s,PASSED
+"tap(findTestObject(""Smoke Test/android.widget.ImageButton1""), 2)",,Back ke page contact list,2019-03-10 14:30:00,2019-03-10 14:30:02,2.202s,PASSED

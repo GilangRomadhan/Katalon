@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="137" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="2" failures="0" errors="0" time="137" timestamp="2019-03-12 00:51:14" hostname="geela - 192.168.139.2" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190312_005110"/>
+         <property name="logFiles" value="C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190312_005110\\appium.log, C:\\Users\\geela\\Katalon Studio\\Netzme Smoke Test\\Katalon\\Reports\\Smoke Test\\20190312_005110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="geela - 192.168.139.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="RMX1805"/>
+         <property name="hostAddress" value="192.168.139.2"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="b9decb5a"/>
+         <property name="deviceName" value="OPPO RMX1805 (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi" classname="Test Cases/Registrasi" status="PASSED">
+         <system-out><![CDATA[2019-03-12 00:51:14 - [TEST_CASE][PASSED] - Test Cases/Registrasi: Test Cases/Registrasi
+
+2019-03-12 00:51:15 - [TEST_STEP][PASSED] - startApplication("C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk", true): Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-12 00:51:23 - [MESSAGE][INFO] - Appium server started on port 59,764
+
+2019-03-12 00:52:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\geela\Katalon Studio\Netzme Smoke Test\Katalon\Data Files\Netzme.apk'
+
+2019-03-12 00:52:11 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-Next"), 10): Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:16 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-Next"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:17 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-Next"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:18 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-Next"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-Next"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-Next'
+
+2019-03-12 00:52:21 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-JOIN NOW"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-JOIN NOW'
+
+2019-03-12 00:52:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-JOIN NOW'
+
+2019-03-12 00:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/reg.button-Phone number"), "08995097655", 2): Text '08995097655' has been set to element 'Object Repository/Registrasi/reg.button-Phone number'
+
+2019-03-12 00:52:25 - [MESSAGE][PASSED] - Text '08995097655' has been set to element 'Object Repository/Registrasi/reg.button-Phone number'
+
+2019-03-12 00:52:25 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.checkbock-Term condition"), 2): Tapped on element 'Object Repository/Registrasi/reg.checkbock-Term condition'
+
+2019-03-12 00:52:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.checkbock-Term condition'
+
+2019-03-12 00:52:27 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.button-REGISTER"), 2): Tapped on element 'Object Repository/Registrasi/reg.button-REGISTER'
+
+2019-03-12 00:52:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.button-REGISTER'
+
+2019-03-12 00:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/reg.editText-Verification Number"), "0000", 2): Text '0000' has been set to element 'Object Repository/Registrasi/reg.editText-Verification Number'
+
+2019-03-12 00:52:31 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Registrasi/reg.editText-Verification Number'
+
+2019-03-12 00:52:31 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.btn-VERIFY"), 2): Tapped on element 'Object Repository/Registrasi/reg.btn-VERIFY'
+
+2019-03-12 00:52:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.btn-VERIFY'
+
+2019-03-12 00:52:34 - [TEST_STEP][PASSED] - tap(findTestObject("General/general.btn - Allow"), 10): Tapped on element 'Object Repository/General/general.btn - Allow'
+
+2019-03-12 00:52:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/general.btn - Allow'
+
+2019-03-12 00:52:42 - [TEST_STEP][PASSED] - clearText(findTestObject("Registrasi/reg.editText-Ganti Nick Name"), 2): Element 'Object Repository/Registrasi/reg.editText-Ganti Nick Name' text is cleared
+
+2019-03-12 00:52:43 - [MESSAGE][PASSED] - Element 'Object Repository/Registrasi/reg.editText-Ganti Nick Name' text is cleared
+
+2019-03-12 00:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/reg.editText-Enter your name here"), "QA Netzme", 2): Text 'QA Netzme' has been set to element 'Object Repository/Registrasi/reg.editText-Enter your name here'
+
+2019-03-12 00:52:46 - [MESSAGE][PASSED] - Text 'QA Netzme' has been set to element 'Object Repository/Registrasi/reg.editText-Enter your name here'
+
+2019-03-12 00:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.button-SAVE"), 5): Tapped on element 'Object Repository/Registrasi/reg.button-SAVE'
+
+2019-03-12 00:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.button-SAVE'
+
+2019-03-12 00:52:48 - [TEST_STEP][PASSED] - delay(15, CONTINUE_ON_FAILURE): Delayed 15 second(s)
+
+2019-03-12 00:53:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-12 00:53:03 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.checkbox-Dont show me again"), 5): Tapped on element 'Object Repository/Registrasi/reg.checkbox-Dont show me again'
+
+2019-03-12 00:53:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.checkbox-Dont show me again'
+
+2019-03-12 00:53:05 - [TEST_STEP][PASSED] - tap(findTestObject("Registrasi/reg.button-CLOSE"), 2): Tapped on element 'Object Repository/Registrasi/reg.button-CLOSE'
+
+2019-03-12 00:53:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registrasi/reg.button-CLOSE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ganti PP" classname="Test Cases/Ganti PP" status="PASSED">
+         <system-out><![CDATA[2019-03-12 00:53:06 - [TEST_CASE][PASSED] - Test Cases/Ganti PP: Test Cases/Ganti PP
+
+2019-03-12 00:53:06 - [TEST_STEP][PASSED] - tap(findTestObject("Front View/frontView-Contact"), 1): Tapped on element 'Object Repository/Front View/frontView-Contact'
+
+2019-03-12 00:53:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Front View/frontView-Contact'
+
+2019-03-12 00:53:08 - [TEST_STEP][PASSED] - tap(findTestObject("Front View/frontView-User Profile"), 1): Tapped on element 'Object Repository/Front View/frontView-User Profile'
+
+2019-03-12 00:53:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Front View/frontView-User Profile'
+
+2019-03-12 00:53:10 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn-GOT IT"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn-GOT IT'
+
+2019-03-12 00:53:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn-GOT IT'
+
+2019-03-12 00:53:11 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn-Edit Profile"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn-Edit Profile'
+
+2019-03-12 00:53:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn-Edit Profile'
+
+2019-03-12 00:53:13 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn-Edit Photo Profile"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn-Edit Photo Profile'
+
+2019-03-12 00:53:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn-Edit Photo Profile'
+
+2019-03-12 00:53:15 - [TEST_STEP][PASSED] - tap(findTestObject("General/general.btn - Allow"), 1): Tapped on element 'Object Repository/General/general.btn - Allow'
+
+2019-03-12 00:53:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/general.btn - Allow'
+
+2019-03-12 00:53:17 - [TEST_STEP][PASSED] - tap(findTestObject("General/general.btn- Capture Image"), 1): Tapped on element 'Object Repository/General/general.btn- Capture Image'
+
+2019-03-12 00:53:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/general.btn- Capture Image'
+
+2019-03-12 00:53:19 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn - CROP"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn - CROP'
+
+2019-03-12 00:53:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn - CROP'
+
+2019-03-12 00:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("General/general.btn - Describe your photo"), "Ganti Photo Profile", 1): Text 'Ganti Photo Profile' has been set to element 'Object Repository/General/general.btn - Describe your photo'
+
+2019-03-12 00:53:23 - [MESSAGE][PASSED] - Text 'Ganti Photo Profile' has been set to element 'Object Repository/General/general.btn - Describe your photo'
+
+2019-03-12 00:53:23 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn.after.describe.photo - SAVE"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn.after.describe.photo - SAVE'
+
+2019-03-12 00:53:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn.after.describe.photo - SAVE'
+
+2019-03-12 00:53:25 - [TEST_STEP][PASSED] - tap(findTestObject("Edit Profile/profile.btn- Save after edit PP"), 1): Tapped on element 'Object Repository/Edit Profile/profile.btn- Save after edit PP'
+
+2019-03-12 00:53:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Edit Profile/profile.btn- Save after edit PP'
+
+2019-03-12 00:53:27 - [TEST_STEP][PASSED] - tap(findTestObject("General/general.btn - Back"), 1): Tapped on element 'Object Repository/General/general.btn - Back'
+
+2019-03-12 00:53:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/General/general.btn - Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 00:51:14 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/Ganti PP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
